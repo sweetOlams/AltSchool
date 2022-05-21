@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-folder/register.css">
+    <title>Register Page</title>
+</head>
+<body>
+    <header>
+        <h1>Baqiyat Abdulsalam</h1>
+        <!-- navbar section -->
+        <nav class="navbar">
+            <ul>
+               <li><a href="about.html">About Me</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="register.html">Register</a></li>
+               <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <form action="GET">
+        <div class="container">
+        <div class="register">
+            <h2>Registration</h2>
+            <p>Please, enter correct details only</p>
+        </div>
+            <label for="fname" class="left"><strong>First Name</strong></label>
+            <input class="left" id="fname" type="text" name="fname" required>
+
+            <label for="lname" class="right"><strong>Last Name</strong></label>
+            <input class="right" id="lname" type="text" name="lname" required>
+
+            <label for="phone" class="left"><strong>Phone</strong></label>
+            <input class="left" id="phone" type="tel" name="phone" required>
+
+            <label for="username" class="right"><strong>Username</strong></label>
+            <input class="right" id="username" type="text" name="username" required>
+
+            <label for="country" class="left"><strong>Country</strong></label>
+            <input class="left" id="country" type="text" name="country" required>
+
+            <label for="state" class="right"><strong>State/Province</strong></label>
+            <input class="right" id="state" type="text" name="state" required>
+
+            <label for="password" class="left"><strong>Password</strong></label>
+            <input class="left" id="password" type="password" name="password" required>
+
+            <label for="pass" class="right"><strong>Confirm Password</strong></label>
+            <input class="right" id="pass" type="password" name="pass" required>
+
+            <label for="gender" class="left"><strong>Gender</strong></label>
+            <select id="gender" type="text" name="gender" required>
+                <option></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="rather-not-say">Rather Not Say</option>
+            </select>
+
+            <button type="submit" value="register">Register</button>
+        </div>
+    </form>
+    </main>
+</body>
+</html>

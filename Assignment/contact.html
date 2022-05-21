@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-folder/contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <header>
+        <h1>Baqiyat Abdulsalam</h1>
+        <!-- navbar section -->
+        <nav class="navbar">
+            <ul>
+               <li><a href="about.html">About Me</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="register.html">Register</a></li>
+               <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <form action="POST" url="#">
+        <div id="container">
+            <div class="header">
+                <h2>Contact Us</h2>
+                <p class="question">Got any questions? We'd love to hear from you. Send a message and we will get back to you.</p>
+            </div>
+
+            <div class="details">
+                <label for="name"><strong>Name</strong> *</label>
+                <input id="name" type="text" name="name" required>
+
+                <label for="email"><strong>Email address</strong> *</label>
+                <input id="email" type="email" name="email" required>
+
+                <label for="message"><trong><strong>Message</strong></trong></label>
+                <textarea id="message" name="message" rows="7" cols="50">Type your question here...</textarea>
+
+                <label for="priority" class="blank"><strong>Priority</strong></label>
+                <select type="text" id="priority" name="priority">
+                  <option value="none"></option>
+                  <option value="low">Low</option>
+                  <option value="medium">Medium</option>
+                  <option value="high">High</option>
+                </select>
+
+                <input type="submit" value="Send Message" id="submit">
+            </div>
+        </div>
+    </form>
+    </main>
+    
+</body>
+</html>

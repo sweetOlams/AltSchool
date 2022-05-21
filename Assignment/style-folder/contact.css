@@ -1,0 +1,131 @@
+body {
+    background-image: url(https://w0.peakpx.com/wallpaper/438/216/HD-wallpaper-notebook-code-programming-text-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: screen;
+    /* opacity: 0.5; */
+    background-color: rgb(65, 62, 8);
+}
+
+main {
+    font-family: monospace;
+    text-align: center;
+    font-size: 16px;
+}
+
+ #container {
+    width: 50%;
+    border-radius: 5px;
+    margin: 60px auto 5px;
+    background-image: linear-gradient(lightgreen, rgb(168, 168, 80));
+}
+
+header {
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+    margin-left: 100px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 24px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+    right: 100px;
+    bottom: 25px;
+}
+
+li > a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li>a:hover {
+    text-decoration: underline;
+    color: rgb(146, 161, 60)
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    padding: 7px;
+    font-size: 13px;
+}
+
+.question {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+}
+
+h2 {
+    font-size: 38px;
+    margin-top: 10px;
+    padding: 30px 0px 10px 0px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    margin: 5px 0px 30px 0px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+textarea {
+    position: relative;
+    top: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.blank {
+    position: relative;
+    top: 35px;
+}
+
+#priority {
+    width: 30%;
+    position: relative;
+    left: 78px;
+    top: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#submit {
+    margin-top: 50px;
+    background-color: rgb(85, 99, 10);
+    border: 1px solid rgb(85, 99, 10);
+    color: white;
+}

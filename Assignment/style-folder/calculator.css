@@ -1,0 +1,61 @@
+* {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(144, 81, 204);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    border: 1px solid rgb(49, 49, 49);
+    width: 33%;
+    height: 90vh;
+    margin: 30px auto;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(49, 49, 49);
+}
+
+.top {
+    border: 1px solid rgb(95, 94, 94);
+    background-color: rgb(95, 94, 94);
+    margin: 30px auto 0px;
+    padding: 30px;
+    width: 330px;
+    text-align: right;
+    border-radius: 10px;
+}
+
+table {
+    background-color: rgb(49, 49, 49)
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    gap: 5px 20px;
+    padding: 30px;
+    width: 380px;
+    margin-bottom: -40px;
+    background-color: rgb(49, 49, 49);
+    /* border: 1px solid rgb(49, 49, 49); */
+}
+
+th {
+    border: 1px solid black;
+    padding: 12px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 12px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
